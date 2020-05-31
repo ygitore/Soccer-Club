@@ -1,0 +1,13 @@
+C:\Users\Owner\workspace\SoccerClub\bin\Debug\netcoreapp3.1\SoccerClub.exe
+C:\Users\Owner\workspace\SoccerClub\bin\Debug\netcoreapp3.1\SoccerClub.deps.json
+C:\Users\Owner\workspace\SoccerClub\bin\Debug\netcoreapp3.1\SoccerClub.runtimeconfig.json
+C:\Users\Owner\workspace\SoccerClub\bin\Debug\netcoreapp3.1\SoccerClub.runtimeconfig.dev.json
+C:\Users\Owner\workspace\SoccerClub\bin\Debug\netcoreapp3.1\SoccerClub.dll
+C:\Users\Owner\workspace\SoccerClub\bin\Debug\netcoreapp3.1\SoccerClub.pdb
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.csprojAssemblyReference.cache
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.AssemblyInfoInputs.cache
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.AssemblyInfo.cs
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.csproj.CoreCompileInputs.cache
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.dll
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.pdb
+C:\Users\Owner\workspace\SoccerClub\obj\Debug\netcoreapp3.1\SoccerClub.genruntimeconfig.cache

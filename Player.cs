@@ -8,10 +8,10 @@ namespace SoccerClub
         public string FirstName {get;set;}
         public string LastName {get;set;}
         public int Number {get;set;}
-        public int Position {get;set;}
+        public string Position {get;set;}
         public int Appearance {get;set;}
         public int Goals {get;set;}
-        public int Nationality {get;set;}
+        public string Nationality {get;set;}
         public DateTime Joined {get;set;}
         public DateTime DateOfBirth {get;set;}
         public int Assist {get;set;}
@@ -20,17 +20,31 @@ namespace SoccerClub
         public double Salary {get;set;}
         public int RedCard {get;set;}
         public int YellowCard {get;set;}
-        public string CurrentClub {get;set;}           
-        public DateTime DateLeftClub {get;set;}           
+        public string CurrentClub {get;set;}                    
         public int Age {
             get {
                 return DateTime.Now.Year - DateOfBirth.Year;
             }
         }
-        public string FullName{
-            get {
-                return FirstName + " "+LastName;
-            }
-        } 
+        public void PrintPlayerInfo(){
+            string playInfo = 
+            @$"
+                Full Name:{FirstName} {LastName} 
+                Number: {Number} 
+                Position: {Position} 
+                Appearance: {Appearance}
+                Goals: {Goals}
+                Nationality: {Nationality}
+                Joined: {Joined} 
+                Date of birth: {DateOfBirth}
+                Assisted: {Assist}
+                Height: {Height}
+                Weight: {Weight}
+                Salary: {Salary}
+                Yellow Card: {YellowCard}
+                Red Card: {RedCard}
+                Current Club: {CurrentClub}";
+            System.Console.WriteLine(playInfo);
+        }
     }
 }
