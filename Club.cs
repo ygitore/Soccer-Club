@@ -5,19 +5,25 @@ namespace SoccerClub
 {
     class Club
     {
-        private int _yearEstablished {get; set;}
-        private string ClubName{get;set;}
+        private int YearEstablished {get; set;}
+        public string ClubName{get;set;}
         private string City{get;set;}
-        private string Country {get;set;}
-        List<Player> players = new List<Player>();
+        public string Country {get;set;}
+        private List<Player> players = new List<Player>();
         public Club(string name, string city, string country, int year){
             this.ClubName = name;
             this.City = city;
             this.Country = country;
-            this._yearEstablished = year;
+            this.YearEstablished = year;
         }
         public void AddPlayer(Player newPlayer){
             players.Add(newPlayer);
+        }
+        public void PrintPlayers(){
+            foreach (Player player in players)
+            {
+                System.Console.WriteLine(player);
+            }
         }
     }
 }
