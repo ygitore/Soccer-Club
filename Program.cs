@@ -91,7 +91,7 @@ namespace SoccerClub
             System.Console.WriteLine("...............");
             cristianoRonaldo.PrintPlayerInfo();
             System.Console.WriteLine("...............");
-
+            System.Console.WriteLine("{0} {1} is {2} years old",cristianoRonaldo.FirstName,cristianoRonaldo.LastName, cristianoRonaldo.Age);
             AllClubs clubs = new AllClubs();
             clubs.AddClub(arsenal);
             clubs.AddClub(barcelona);
